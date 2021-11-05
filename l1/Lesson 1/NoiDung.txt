@@ -1,0 +1,57 @@
+					*Nội dung buổi 1:
+1. Ôn tập về let, var và const.
+	-Sự khác nhau của var, let và const (const là hằng số)
+	-Sự khác nhau của let, const và var
+		+Scope
+		+Hoisting
+
+2. Arrow function
+	const/ var/ let ten_function = (param1, param2, ...paramN) => {
+		//code
+	}
+	Giải thích:
+		+ const/var/let: từ khóa khai báo
+		+ ten_function: tên của function bạn muốn đặt
+		+ param1, param2,...paramN: các parameters mà bạn muốn truyền vào hàm
+		+ //code: nội dung code của function
+	
+3. Array
+	-Thao tác đến các phần tử trong array thì cần có index
+	-Phép gán 1 phần tử trong mảng
+		let a = arr[n] //gán cho biến a 1 giá trị là phần tử index n trong mảng arr
+		arr[n] = 4; //gán giá trị cho phần tử index n trong mảng = 4
+	-1 số phương thức hay dùng
+		+pop: xóa phần tử cuối trong mảng
+		+push: thêm phần tử
+		+splice: vừa có thể xóa, vừa có thể thêm phần tử
+		+shift, unshift
+VD: const number = [1, 2, 3, 4];
+	
+4. Object
+	-Để lấy được giá trị trong object thì cần biết key tương ứng
+	-Object là tập hợp của các cặp key, value
+VD: const student = {
+		name: 'MindX',
+		age: 10
+	}
+	
+5. Local storage
+	-localStorage.setItem('key1, value) //add value vào local storage và có key là key1
+	-localStorage.getItem('key2) //lấy value tương ứng với key2 trong local storage
+	-localStorage.removeItem('key3') //xóa value tương ứng với key3 trong local storage
+	-localStorage.clear(); //xóa tất cả dữ liệu trong local storage
+VD: Làm 1 chương trình quản lý sinh viên.
+	
+6. Call Api
+	C1: Dùng async await:
+	async function getUserAsync(name) {
+		let response = await fetch(`https://api.github.com/users/${name}`);
+		let data = await response.json()
+		return data;
+	}
+	C2: Dùng promise:
+	fetch('http://example.com/movies.json')
+	  .then(response => response.json())
+	  .then(data => console.log(data));
+BT: https://docs.google.com/document/d/1mIk1z2RURgUkw_ZhUk_Lh-c3ZhzfUU7DzyU6piW75pI/edit
+

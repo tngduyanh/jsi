@@ -1,0 +1,17 @@
+Bài 1:Cho 1 mảng như sau arrayNumber = [10, -3, 5, -7, 11, -15, -20, 23]
+	1.Tính trung bình cộng các số lẻ ở index chẵn (index = 0 được coi là chẵn)
+	2.Tìm số lớn nhất trong mảng vừa nhập
+	3.Tìm vị trí số nhỏ nhất trong mảng
+	4.Đếm các số chính phương có trong mảng
+	5.Hiện thị các số nguyên tố có trong mảng lên màn hình console
+	6.Thay thế các phần tử âm có trong mảng bằng giá trị 0
+	7.Xóa các phần tử âm có trong 
+Bài 2: Viết chương trình để nhập 10 số nguyên trong một mảng một chiều, sau đó sắp xếp và in mảng đó theo thứ tự tăng dần, thứ tự giảm dần
+Bài 3: Viết chương trình liệt kê tất cả các số nguyên tố nhỏ hơn n (n nhập từ bàn phím)
+	-Để nhập một giá trị từ bàn phím trong javascript thì sử dụng hàm prompt()
+Bài 4: Viết chương trình quản lý sinh viên.
+	Mô tả: 
+		+tạo 1 trang html, có các ô input (tên, tuổi, tình trạng quan hệ, email, giới tính), và button Save. Khi bấm vào button Save thì thông tin sẽ được lưu lại vào local storage
+		+tạo 1 trang html để có thể in ra các danh sách sinh viên đã lưu trong local storage
+		+nếu tích hợp cả 2 trang trên được thành 1 trang html thì càng tốt
+Bài 5+6: https://docs.google.com/document/d/1mIk1z2RURgUkw_ZhUk_Lh-c3ZhzfUU7DzyU6piW75pI/edit
