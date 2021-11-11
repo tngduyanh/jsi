@@ -11,7 +11,7 @@ form.addEventListener("submit", (e) =>{
         email: form.email.value.trim(),
         gender: form.gender.value.trim(),              
     }
-    
+  
     if(data.name === ""){
         const nameError = document.getElementById('name-error')
         nameError.innerHTML = "Name cannot be empty"
@@ -75,7 +75,7 @@ form.addEventListener("submit", (e) =>{
 
     // // console.log(localStorage.getItem("user"));
 console.log(data);
-      signUp(data);
+
 
 }) 
   

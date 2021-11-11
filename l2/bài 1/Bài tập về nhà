@@ -1,0 +1,38 @@
+Bài 1:
+
+Thiết lập lớp PhanSo để biểu diễn khái niệm phân số với hai thành phần dữ liệu tử số, mẫu số và các hàm thành phần cộng, trừ, nhân, chia hai phân số, các hàm thành phần xuất, nhập, định giá trị cho phân số. Viết chương trình cho phép nhập vào hai phân số, in ra kết quả các phép toán cộng, trừ, nhân, chia hai phân số kể trên.
+
+
+Bài 2:
+
+Xây dựng lớp Candidate (Thí sinh) gồm các thuộc tính: mã, tên, ngày tháng năm sinh, điểm thi Toán, Văn, Anh và các phương thức cần thiết.
+
+Xây dựng lớp TestCandidate để kiểm tra lớp trên:
+
+– Nhập vào n thí sinh (n do người dùng nhập)
+
+– In ra thông tin về các thí sinh có tổng điểm lớn hơn 15
+
+
+*Bài 3:
+Ngân hàng ABC muốn lưu trữ thông tin của mỗi tài khoản như sau:
+
+Mỗi tài khoản chứa các thông tin:
+
+Số tài khoản 
+Tên tài khoản 
+Số tiền trong tài khoản 
+Thiết kế lớp Account để lưu trữ các thông tin, lớp bao gồm các phương thức sau:
+
+Constructor
+Các phương thức get, set cho từng thuộc tính
+Phương thức toString để trả về chuỗi chứa toàn bộ thông tin tài khoản, yêu cầu định dạng tiền tệ.
+Thêm các thông tin sau vào lớp Account:
+
+Hằng số lãi suất có giá trị khởi tạo 0.035
+Constructor có 2 đối số: số tài khoản, tên tài khoản. Constructor này sẽ khởi tạo số tiền mặc định là 50
+Phương thức nạp tiền vào tài khoản: Lấy số tiền hiện tại trong tài khoản + số tiền nạp vào
+Phương thức rút tiền: Lấy số tiền hiện tại trong tài khoản – (số tiền muốn rút+phí rúttiền)
+Phương thức đáo hạn: Mỗi lần đến kỳ đáo hạn thì số tiền trong tài khoản = số tiền trong tài khoản + số tiền trong tài khoản * LAISUAT
+Phương thức chuyển khoản từ tài khoản này sang tài khoản khác
+Chú ý: Mỗi thao tác phải kiểm tra số tiền nạp, rút, chuyển có hợp lệ hay không? (VD: tiền nhập vào <0, tiền rút nhiều hơn tiền trong tài khoản thì thông báo không hợp lệ và yêu cầu nhập lại)
