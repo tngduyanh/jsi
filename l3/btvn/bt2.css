@@ -1,0 +1,22 @@
+body{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom left,  #000e30,#432847,#352961,#222045,#1e002efc);
+    color: rgb(255, 255, 255);
+    height: 1000px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+/* font-family: 'Commissioner', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100&display=swap');
+/* font-family: 'Georama', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+/* font-family: 'Gowun Dodum', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+/* font-family: 'Quicksand', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap');
+/* font-family: 'Gowun Batang', serif; */
+*{
+    font-family: 'Georama', sans-serif;
+}
+
